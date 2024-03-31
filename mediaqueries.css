@@ -123,4 +123,11 @@
     .text-container {
         text-align: justify;
     }
+
+    .section__pic-container img {
+        width: 250px;
+        height: 250px;
+        margin-top: 70px;
+        padding: 0;
+    }
 }
