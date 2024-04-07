@@ -7,7 +7,18 @@
 }
 
 body {
+    transition: background-color 0.5s ease;
+}
+.dark-mode {
+    
+    background-color: #14033969;
+}
+
+body {
     font-family: 'poppins', sans-serif;
+background-color: rgba(192, 192, 192, 0.303);
+    /* background-repeat: no-repeat; */
+    height: fit-content;
 }
 
 html {
@@ -301,10 +312,6 @@ p {
 .about-containers,
 .about-details-container {
     display: flex;
-}
-
-.about-pic {
-    border-radius: 2rem;
 }
 
 .arrow {
