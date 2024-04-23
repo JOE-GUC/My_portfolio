@@ -464,3 +464,18 @@ span {
     font-family: 'Poppins', sans;
     font-style: italic;
 }
+
+.section__pic-container{
+    animation: slide infinite 5s;
+    -webkit-animation: slide infinite 1.5s alternate;
+}
+
+@keyframes slide {
+    from {
+        transform: translatey(0);
+    }
+
+    to {
+        transform: translatey(20px);
+    }
+}
