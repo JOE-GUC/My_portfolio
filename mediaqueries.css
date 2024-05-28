@@ -16,7 +16,7 @@
 
     #hamburger-nav a {
         background-color: rgba(236, 215, 215, 0.205);
-        font-size: smaller;
+        font-size: small;
     }
 
     #profile,
@@ -25,7 +25,7 @@
     }
 
     #about {
-        margin-top: 150px;
+        margin-top: 130px;
         align-items: center;
         text-align: center;
     }
@@ -108,7 +108,7 @@
 
 
     #contact ul {
-        margin-left: 250px;
+        margin-left: 300px;
     }
     
 
