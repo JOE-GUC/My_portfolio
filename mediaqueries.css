@@ -2,10 +2,10 @@
 
 @media screen and (max-width: 1200px) {
 
-    *{
+    /* *{
         padding: 0;
         margin: 0;
-    }
+    } */
 
     #desktop-nav {
         display: none;
@@ -19,7 +19,7 @@
         margin-bottom: 30px;
         color: rgb(255, 0, 0);
         font-weight: 700;
-        background-color: rgb(13, 11, 11);        
+        background-color: #f4dede;        
     }
 
     #hamburger-nav img {
