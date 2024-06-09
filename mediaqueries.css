@@ -1,13 +1,25 @@
 
 
 @media screen and (max-width: 1200px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
     #desktop-nav {
         display: none;
     }
     #hamburger-nav {
         display: flex;
+        position: -webkit-sticky; /* For Safari */
+        position: sticky;
+        top: 0; /* Stick the Navbar at the top of the viewport */
+        z-index: 1000;
         margin-bottom: 30px;
         color: rgb(255, 0, 0);
+        font-weight: 700;
+        background-color: rgb(13, 11, 11);        
     }
 
     #hamburger-nav img {

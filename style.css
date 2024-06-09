@@ -13,6 +13,14 @@ body {
 .dark-mode {
     color: #fff;
     background-color: black;
+
+    #hamburger-nav {
+        display: flex;
+        margin-bottom: 30px;
+        font-weight: 700;
+        color: rgb(255, 0, 0);
+        background-color: #fffcfc;
+    }
 }
 
 body {
@@ -24,10 +32,6 @@ body {
 
 html {
     scroll-behavior: smooth;
-}
-
-p {
-    /* color: rgb(85, 85, 85); */
 }
 
 /* Transition */
