@@ -35,6 +35,5 @@ function toggleMenu() {
 }
 
 function toggleDarkMode() {
-    var body = document.body;
-    body.classList.toggle("dark-mode");
+    document.body.classList.toggle('dark-mode');
 }

@@ -21,8 +21,24 @@
         margin-bottom: 30px;
         color: rgb(255, 0, 0);
         font-weight: 700;
-        background-color: #fdf2f2;        
+        background-color: #171515;        
     }
+
+    #hamburger-nav .mode{
+        /* height: 50px; */
+        margin: 0;
+        padding-left: 100px;
+        font-size: 30px;
+    }
+
+#hamburger-nav .joe {
+    margin-left: -30px;
+    width: 200px;
+}
+
+    #hamburger-nav .logo {
+width: 50px;
+  }
 
     #hamburger-nav img {
         margin-left: 100px;
