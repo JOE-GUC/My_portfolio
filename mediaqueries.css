@@ -21,6 +21,7 @@
         margin-bottom: 30px;
         color: rgb(255, 0, 0);
         font-weight: 700;
+        height: 100px;
         background-color: #171515;        
     }
 
@@ -33,7 +34,7 @@
 
 #hamburger-nav .joe {
     margin-left: -30px;
-    width: 200px;
+    width: 170px;
 }
 
     #hamburger-nav .logo {
