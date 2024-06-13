@@ -14,7 +14,18 @@ body {
 /* Add dark mode styles */
 .dark-mode {
     background-color: #121212;
-    color: #ffffff;
+    color: #ffffff; 
+    #hamburger-nav {
+        display: flex;
+        position: -webkit-sticky; /* For Safari */
+        position: sticky;
+        top: 0; /* Stick the Navbar at the top of the viewport */
+        z-index: 1000;
+        margin-bottom: 30px;
+        font-weight: 700;
+        height: 100px;
+        background-color: #100e0e;        
+    }
 }
 
 
@@ -89,7 +100,7 @@ a:hover {
 .hamburger-icon span {
     width: 120%;
     height: 4.5px;
-    background-color: rgb(193, 193, 193);
+    background-color: rgb(231, 8, 190);
     border-radius: 5px;
     transition: transform 0.5s ease, opacity 0.5s ease-in-out;
     /* Added transitions */

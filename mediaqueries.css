@@ -1,8 +1,6 @@
-
-
 @media screen and (max-width: 1200px) {
 
-    *{
+    * {
         padding: 0;
         margin-top: 0;
         margin-left: 0;
@@ -12,34 +10,36 @@
     #desktop-nav {
         display: none;
     }
+
     #hamburger-nav {
         display: flex;
-        position: -webkit-sticky; /* For Safari */
+        position: -webkit-sticky;
+        /* For Safari */
         position: sticky;
-        top: 0; /* Stick the Navbar at the top of the viewport */
+        top: 0;
+        /* Stick the Navbar at the top of the viewport */
         z-index: 1000;
         margin-bottom: 30px;
-        color: rgb(255, 0, 0);
         font-weight: 700;
         height: 100px;
-        background-color: #171515;        
+        background-color: #eee6e6; 
     }
 
-    #hamburger-nav .mode{
-        /* height: 50px; */
+    #hamburger-nav .mode {
+        /* filter: invert(20); */
         margin: 0;
         padding-left: 100px;
         font-size: 30px;
     }
 
-#hamburger-nav .joe {
-    margin-left: -30px;
-    width: 170px;
-}
+    #hamburger-nav .joe {
+        margin-left: -30px;
+        width: 170px;
+    }
 
     #hamburger-nav .logo {
-width: 50px;
-  }
+        width: 50px;
+    }
 
     #hamburger-nav img {
         margin-left: 100px;
@@ -60,6 +60,7 @@ width: 50px;
         align-items: center;
         text-align: center;
     }
+
     #experience,
     .experience.details-container {
         margin-top: 2rem;
@@ -117,7 +118,7 @@ width: 50px;
         flex-wrap: wrap;
     }
 
-    .about-containers{
+    .about-containers {
         padding: 7px;
     }
 
@@ -125,7 +126,7 @@ width: 50px;
         margin: 0;
     }
 
-    .contact-info-container  {
+    .contact-info-container {
         font-size: 1rem;
     }
 
@@ -145,7 +146,7 @@ width: 50px;
     #contact ul {
         margin-left: 300px;
     }
-    
+
 
     .section__pic-container {
         width: auto;
@@ -176,22 +177,23 @@ width: 50px;
         padding: 0;
     }
 
-    .color-container{
+    .color-container {
         display: inline-block;
         justify-content: space-between;
         /* align-items: ; */
         /* gap: 60px; */
         animation: animation 10s linear infinite alternate;
     }
-    
+
     @keyframes animation {
-        from{
+        from {
             transform: translateX(0);
         }
-        to{
+
+        to {
             transform: translateX(-50%);
         }
     }
-    
+
 
 }
