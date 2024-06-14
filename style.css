@@ -7,13 +7,13 @@
 }
 body {
     font-family: 'poppins', sans-serif;
-    background-color: rgba(192, 192, 192, 0.303);
+    background-color: rgb(225, 225, 225);
     height: fit-content;
 }
 
 /* Add dark mode styles */
 .dark-mode {
-    background-color: #121212;
+    background-color: #001b29;
     color: #ffffff; 
     #hamburger-nav {
         display: flex;
@@ -24,7 +24,7 @@ body {
         margin-bottom: 30px;
         font-weight: 700;
         height: 100px;
-        background-color: #100e0e;        
+        background-color: #0a2735;        
     }
 }
 

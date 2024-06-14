@@ -22,7 +22,7 @@
         margin-bottom: 30px;
         font-weight: 700;
         height: 100px;
-        background-color: #eee6e6; 
+        background-color: #ffecec; 
     }
 
     #hamburger-nav .mode {
@@ -109,7 +109,7 @@
     }
 
     article {
-        font-size: 1rem;
+        font-size: 5px;
     }
 
     .about-containers,
