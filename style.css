@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'poppins', sans-serif;
     background-color: rgb(225, 225, 225);
@@ -14,17 +15,20 @@ body {
 /* Add dark mode styles */
 .dark-mode {
     background-color: #001b29;
-    color: #ffffff; 
+    color: #ffffff;
+
     #hamburger-nav {
         display: flex;
-        position: -webkit-sticky; /* For Safari */
+        position: -webkit-sticky;
+        /* For Safari */
         position: sticky;
-        top: 0; /* Stick the Navbar at the top of the viewport */
+        top: 0;
+        /* Stick the Navbar at the top of the viewport */
         z-index: 1000;
         margin-bottom: 30px;
         font-weight: 700;
         height: 100px;
-        background-color: #0a2735;        
+        background-color: #0a2735;
     }
 }
 
@@ -240,9 +244,10 @@ section {
 
 /* icons */
 
-.icon {
+.icons {
     cursor: pointer;
     height: 2rem;
+    border-radius: 50px;
 }
 
 /* buttons */
@@ -381,7 +386,8 @@ p {
 }
 
 .icon {
-    border-radius: 50%;
+    border-radius: 10px;
+    height: 3rem;
     cursor: pointer;
 }
 
