@@ -1,5 +1,6 @@
 const carousel = document.querySelector('.carousel-container');
 const slides = document.querySelectorAll('.slide');
+const mode = document.querySelector('.mode');
 
 let currentSlide = 0;
 
@@ -36,4 +37,11 @@ function toggleMenu() {
 
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
+    if(document.body.classList.contains("dark-mode")){
+      mode.innerHTML = "🌙"
+    }
+    else{
+      mode.innerHTML = "🔆"
+
+    }
 }
