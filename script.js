@@ -31,7 +31,7 @@ showSlide(0);
 function toggleMenu() {
     const menu = document.querySelector('.menu-links');
     const icon = document.querySelector('.hamburger-icon');
-    menu.classList.toggle('open');
+    menu.classList.toggle('nomenu');
     icon.classList.toggle('open');
 }
 

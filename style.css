@@ -111,21 +111,29 @@ a:hover {
 }
 
 .menu-links {
-    position: absolute;
-    top: 100%;
-    right: 0;
+    position: fixed;
+    top: 0;
+    /* display: none; */
+    z-index: 9;
+    padding-top: 8em;
+    left: 0;
+
     background-color: #ffffff;
-    width: fit-content;
-    max-height: 0;
+    width: 100%;
+    min-height: 25svh;
     overflow: hidden;
-    transition: all 0.3 ease-in-out;
+    transition: .5s;
+    transform: translateX(1000px);
+}
+.nomenu{
+    transform: translateX(0);
 }
 
 .menu-links a {
     display: block;
     padding: 10px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
