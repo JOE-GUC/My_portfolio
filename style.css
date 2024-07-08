@@ -446,6 +446,15 @@ p {
     padding: 0.5rem;
 }
 
+#socials-container {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#socials-container img {
+    height: 50px;
+}
+
 .contact-info-container {
     display: flex;
     align-items: center;
@@ -530,4 +539,22 @@ span {
         transform: translateX(-770px);
         /* /* Adjust this value based on the width of your slide */
     }
+}
+
+.B2T {
+    position: fixed;
+    bottom: 20px;
+    margin-bottom: 7px;
+    z-index: 1000; /* Ensure the button is on top of all other content */
+    font-size: 50px;
+}
+
+.B2T a {
+    filter: invert();
+    text-decoration: none;
+}
+
+.section__pic-container img {
+    border-top: 20px solid #ff00d0;
+    border-bottom: 20px solid #ff00d0;
 }
