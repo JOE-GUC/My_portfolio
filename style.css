@@ -52,7 +52,7 @@ nav,
 }
 
 .menu-links {
-    display: none;
+    /* display: none; */
 }
 
 nav {
@@ -500,3 +500,5 @@ span {
     gap: 2rem;
     margin: 1rem;
 }
+
+
