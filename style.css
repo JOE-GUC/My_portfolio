@@ -52,7 +52,7 @@ nav,
 }
 
 .menu-links {
-    /* display: none; */
+    display: none;
 }
 
 nav {
@@ -98,11 +98,13 @@ a:hover {
     display: inline-block;
 }
 
+
+
 /* SECTTION */
 section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
+    padding-top: 7vh;
+    height: fit-content;
+    margin: 0 7rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -113,11 +115,23 @@ section {
 
 /* profile section */
 
+#about {
+    height: fit-content;
+}
+
+#project {
+    height: fit-content;
+}
+
+#contact {
+    height: fit-content;
+}
+
 #profile {
     display: flex;
     justify-content: center;
     /* gap: 5rem; */
-    height: 80vh;
+    height: fit-content;
 }
 
 .section__pic-container {
@@ -129,10 +143,6 @@ section {
 
 }
 
-/* .section__pic-container2 img {
-    display: none;
-    margin-top: 10%;
-} */
 
 .section__pic-container img {
     border-radius: 50%;
@@ -256,23 +266,12 @@ p {
 
 
 
-/* .section-container {
-    gap: 0;
-    /* height: 80%; */
-} */
 
-/* .Section__pic-container {
-    /* padding-top: 100PX; */
-    /* height: 500px; */
-    /* width: 500px; */
-    /* margin: auto 0; */
-    /* border-radius: ; */
-} */
 
 /* Experience section */
 
 #experience {
-    position: relative;
+    height: fit-content;
 }
 
 .experience-sub-title {
@@ -440,9 +439,9 @@ span {
 
 #contact {
     display: flex;
+    height: fit-content;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
 }
 
 .contact-info-upper-container {
@@ -468,11 +467,6 @@ span {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
-    /* text-align: initial; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    /* gap: 2.5rem; */
     justify-content: space-around;
 }
 
