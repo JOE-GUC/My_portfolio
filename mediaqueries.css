@@ -13,7 +13,7 @@
 
     .menu-links {
         display: block;
-        
+
     }
 
     .menu-links a {
@@ -59,10 +59,8 @@
     }
 
     #profile {
-        display: block;
+        display: flex;
         height: fit-content;
-        padding: 0;
-
     }
 
     .section-container {
@@ -89,7 +87,7 @@
     }
 
     .section__text {
-        margin-top: 1px;
+        margin-top: 210px;
         align-items: center;
         text-align: center;
     }
@@ -103,9 +101,15 @@
 
 
 
+    .section__pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
     .section__pic-container img {
-        border-radius: 50%;
-        width: 250px;
+        margin-top: 40px;
+        width: 270px;
         height: 250px;
     }
 
@@ -309,13 +313,12 @@
 
 }
 
-@media screen and (max-width: 1114px) and (min-width: 768px) {
+@media screen and (max-width: 1114px) and (min-width: 500px) {
 
     #contact {
         height: 30vh;
     }
-
-
+    
     #profile {
         display: flex;
         height: fit-content;
@@ -326,17 +329,13 @@
     }
 
     .section__text {
-        padding-top: 12%;
+        margin-top: 85px;
+        padding-left: 50px;
     }
 
     .article-container img {
         width: 45px;
         height: inherit;
-    }
-
-    .section__pic-container img {
-        width: 340px;
-        height: 320px;
     }
 
     .section__pic-container {
@@ -359,6 +358,12 @@
 
 @media screen and (max-width: 412px) and (min-width: 360px) {
 
+    #profile {
+        display: block;
+        height: fit-content;
+        padding: 0;
+    }
+
     #contact {
         height: 30vh;
     }
@@ -367,8 +372,12 @@
         font-size: 2rem;
     }
 
+    .section__pic-container img {
+        margin-top: 0px;
+    }
+
     .section__text {
-        padding-top: 15%;
+        margin-top: 150px;
     }
 
     .article-container img {
@@ -376,15 +385,15 @@
         height: inherit;
     }
 
-    .section__pic-container img {
-        width: 340px;
-        height: 320px;
-    }
-
-
 }
 
 @media screen and (max-width: 430px) and (min-width:320px) {
+
+    #profile {
+        display: block;
+        height: fit-content;
+        padding: 0;
+    }
 
     #contact {
         height: 40vh;
@@ -394,6 +403,10 @@
     #profile {
         height: fit-content;
         margin-bottom: 0;
+    }
+
+    .section__pic-container img {
+        margin-top: 0px;
     }
 
     .article-container img {
@@ -423,12 +436,6 @@
         font-size: 1.25rem;
     }
 
-    .section__pic-container {
-        width: auto;
-        height: 46vw;
-        justify-content: center;
-    }
-
     .section__text__p2 {
         font-size: 1.25rem;
     }
@@ -438,18 +445,11 @@
     }
 
     .section__text {
-        padding-top: 70%;
+        margin-top: 150px;
     }
 
     .text-container {
         text-align: justify;
-    }
-
-    .section__pic-container img {
-        width: 320px;
-        height: 320px;
-
-        padding: 0;
     }
 
 
