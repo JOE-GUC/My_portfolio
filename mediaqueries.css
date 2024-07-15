@@ -447,6 +447,7 @@
     
      #profile{
          flex-direction: column !important;
+         padding: 0;
         }
         .about-containers{
             flex-direction: column !important;
@@ -457,5 +458,9 @@
         }
         .section__text {
             margin-top: 130px;
+        }
+        .section__pic-container{
+            margin-top: 0;
+            padding: 0;
         }
     }
