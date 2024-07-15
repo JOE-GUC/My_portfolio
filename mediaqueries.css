@@ -448,4 +448,7 @@
      #profile{
          flex-direction: column !important;
         }
+        .about-containers{
+            flex-direction: column !important;
+        }
     }
