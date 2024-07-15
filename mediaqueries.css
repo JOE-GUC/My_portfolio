@@ -453,6 +453,7 @@
         }
         .section__pic-container img {
             margin-top: 0px;
+            padding-top: 0;
         }
         .section__text {
             margin-top: 130px;
