@@ -451,4 +451,10 @@
         .about-containers{
             flex-direction: column !important;
         }
+        .section__pic-container img {
+            margin-top: 0px;
+        }
+        .section__text {
+            margin-top: 50px;
+        }
     }
