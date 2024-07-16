@@ -1,4 +1,11 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1114px) {
+
+  
+
+}
+
+
+@media screen and (max-width: 768px) {
 
     * {
         padding: 0;
@@ -13,11 +20,6 @@
 
     .menu-links {
         display: block;
-
-    }
-
-    .menu-links a {
-        font-size: 2px;
     }
 
     #hamburger-nav {
@@ -45,74 +47,51 @@
 
     #hamburger-nav .logo {
         width: 50px;
-    }
-
-    #hamburger-nav img {
-        margin-left: 100px;
-    }
-
-    #hamburger-nav a {
-        background-color: rgba(236, 215, 215, 0.205);
-        font-size: small;
-    }
+    } 
 
     #profile {
-        display: flex;
-        height: fit-content;
+        flex-direction: column !important;
+        padding: 0;
     }
-
-    .section-container {
-        display: block;
-
-    }
-
-    #about {
-        align-items: center;
-        text-align: center;
-    }
-
-    .experience.details-container {
-        margin-top: 2rem;
-    }
-
-    section,
-    .section-container {
-        height: fit-content;
-    }
-
-    section {
-        margin: 0 5%;
-    }
-
-    .section__text {
-        margin-top: 210px;
-        align-items: center;
-        text-align: center;
-    }
-
-
-
 
     .about-containers {
-        margin-top: 0;
+        flex-direction: column !important;
     }
 
-
+    .section__pic-container img {
+        margin-top: 65px;
+        width: 270px;
+        height: 250px;
+        margin-top: 0px;
+        padding-top: 0;
+    }
 
     .section__pic-container {
         width: auto;
         height: 46vw;
         justify-content: center;
+        margin-bottom: 70px;
+        padding: 0;
+    }
+ 
+    .section__pic-container {
+        animation: slide infinite 5s;
+        -webkit-animation: slide infinite 1.5s alternate;
     }
 
-    .section__pic-container img {
-        margin-top: 40px;
-        width: 270px;
-        height: 250px;
+    @keyframes slide {
+        from {
+            transform: translatey(0);
+        }
+
+        to {
+            transform: translatey(20px);
+        }
     }
 
-
-
+    section {
+        margin: 0 5%;
+    }
 
     .hamburger-icon {
         display: flex;
@@ -137,7 +116,6 @@
         z-index: 9;
         padding-top: 8em;
         left: 0;
-
         background-color: #ffffff;
         width: 100%;
         min-height: 25svh;
@@ -192,24 +170,6 @@
         transform: none;
     }
 
-
-
-    .section__pic-container {
-        animation: slide infinite 5s;
-        -webkit-animation: slide infinite 1.5s alternate;
-    }
-
-    @keyframes slide {
-        from {
-            transform: translatey(0);
-        }
-
-        to {
-            transform: translatey(20px);
-        }
-    }
-
-
     .carousel {
         overflow: hidden;
     }
@@ -217,19 +177,6 @@
     .carousel-container {
         display: flex;
         animation: carousel-animation 70s linear infinite;
-    }
-
-    .slide img {
-        padding: 10px;
-        width: 100px;
-        height: 200px;
-    }
-
-    .slid img {
-        display: flex;
-        padding: 10px;
-        width: 300px;
-        height: 190px;
     }
 
     @keyframes carousel-animation {
@@ -240,12 +187,6 @@
         25% {
             transform: translateX(-770px);
         }
-    }
-
-    #contact {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
 
     .contact-info-upper-container {
@@ -263,10 +204,6 @@
         margin-bottom: 10px;
     }
 
-    #socials-container img {
-        height: 50px;
-    }
-
     .article-container {
         display: flex;
         text-align: initial;
@@ -276,191 +213,7 @@
         justify-content: space-around;
     }
 
-    .details-container {
-        padding: 1.5rem;
-        flex: 1;
-        border-radius: 2rem;
-        border: rgb(53, 53, 53) 0.1rem solid;
-        border-color: rgb(163, 163, 163);
-        text-align: center;
+    .Copyright {
+        margin-top: 30px;
     }
-
-    .about-containers,
-    .about-details-container {
-        display: flex;
-    }
-
-    .about-details-container {
-        flex-direction: column;
-    }
-
-    .about-containers {
-        gap: 2rem;
-        margin: 1rem;
-    }
-
-
 }
-
-@media screen and (max-width: 1114px) and (min-width: 768px) {
-
-    #contact {
-        height: 30vh;
-    }
-    
-    #profile {
-        display: block;
-        height: fit-content;
-    }
-
-    .title {
-        font-size: 2rem;
-    }
-
-    .section__text {
-        margin-top: 85px;
-        padding-left: 50px;
-    }
-
-    .article-container img {
-        width: 45px;
-        height: inherit;
-    }
-
-    .section__pic-container {
-        animation: slide infinite 5s;
-        -webkit-animation: slide infinite 1.5s alternate;
-    }
-
-    @keyframes slide {
-        from {
-            transform: translatex(0);
-        }
-
-        to {
-            transform: translatex(20px);
-        }
-    }
-
-
-}
-
-@media screen and (max-width: 412px) and (min-width: 360px) {
-
-    #profile {
-        display: block;
-        height: fit-content;
-        padding: 0;
-    }
-
-    #contact {
-        height: 30vh;
-    }
-
-    .title {
-        font-size: 2rem;
-    }
-
-    .section__pic-container img {
-        margin-top: 0px;
-    }
-
-    .section__text {
-        margin-top: 150px;
-    }
-
-    .article-container img {
-        width: 45px;
-        height: inherit;
-    }
-
-}
-
-@media screen and (max-width: 430px) and (min-width:320px) {
-
-    #profile {
-        display: block;
-        height: fit-content;
-        padding: 0;
-    }
-
-    #contact {
-        height: 40vh;
-    }
-
-
-    #profile {
-        height: fit-content;
-        margin-bottom: 0;
-    }
-
-    .section__pic-container img {
-        margin-top: 0px;
-    }
-
-    .article-container img {
-        width: 45px;
-        height: inherit;
-    }
-
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
-        flex-wrap: wrap;
-    }
-
-    .about-containers {
-        padding: 7px;
-    }
-
-    .contact-info-container {
-        margin: 10px;
-    }
-
-    .contact-info-container {
-        font-size: 1rem;
-    }
-
-    .experience-sub-title {
-        font-size: 1.25rem;
-    }
-
-    .section__text__p2 {
-        font-size: 1.25rem;
-    }
-
-    .title {
-        font-size: 2rem;
-    }
-
-    .section__text {
-        margin-top: 150px;
-    }
-
-    .text-container {
-        text-align: justify;
-    }
-
-
-}
- @media screen and (max-width: 768px) {
-    
-     #profile{
-         flex-direction: column !important;
-         padding: 0;
-        }
-        .about-containers{
-            flex-direction: column !important;
-        }
-        .section__pic-container img {
-            margin-top: 0px;
-            padding-top: 0;
-        }
-        .section__text {
-            margin-top: 130px;
-        }
-        .section__pic-container{
-            margin-top: 0;
-            padding: 0;
-        }
-    }
