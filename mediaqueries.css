@@ -77,6 +77,10 @@
         font-size: 27px;
     }
 
+    .section__text {
+        margin-left: 0;
+    }
+
     .section__text__P2 {
         font-size: 20px;
     }
@@ -104,6 +108,7 @@
 
     .section__pic-container img {
         margin-top: 65px;
+        margin-right: 0;
         width: 270px;
         height: 250px;
         margin-top: 0px;

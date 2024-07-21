@@ -166,7 +166,7 @@ section {
     align-items: center;
     text-align: center;
     margin-top: 100px;
-    /* margin-left: 50px; */
+    margin-left: 50px;
 }
 
 .section__text p {
@@ -180,6 +180,7 @@ section {
 }
 
 .section__text__P2 {
+    /* width: fit-content; */
     font-size: 1.7rem;
     padding-bottom: 15px;
     margin: 0;
