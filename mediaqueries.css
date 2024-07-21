@@ -37,7 +37,6 @@
     }
 
     #hamburger-nav .joe {
-        filter: ;
         margin-top: 12px;
         margin-left: -50px;
         width: 170px;
@@ -168,7 +167,7 @@
         position: fixed;
         top: 0;
         z-index: 9;
-        padding-top: 8em;
+        padding-top: 5em;
         left: 0;
         background-color: #ffecec;
         width: 100%;

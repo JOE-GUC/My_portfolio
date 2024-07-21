@@ -23,14 +23,27 @@ html {
 }
 
 .dark-mode {
-    font-size: 25px;
     background-color: #001b29;
     color: #ffffff;
 
-    .nav-links a{
+    nav {
+        background-color: #1a1717;
+    }
+
+    .nav-links a {
         color: #fff;
     }
-    
+
+    .logo {
+        filter: invert();
+    }
+
+}
+
+.mode {
+    margin: 0;
+    /* margin-left: 100px; */
+    font-size: 20px;
 }
 
 a,
@@ -51,12 +64,17 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffefef;
 }
 
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 a {
@@ -72,8 +90,8 @@ a:hover {
     text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-    font-size: 2rem;
+.logo img {
+    width: 170px;
 }
 
 .logo:hover {
@@ -138,6 +156,7 @@ section {
 
 .section__pic-container img {
     border-radius: 50%;
+    margin-top: 50px;
     width: 320px;
     height: 300px;
 }
@@ -165,7 +184,7 @@ section {
 }
 
 .title {
-    color:rgb(255, 0, 174) ;
+    color: rgb(255, 0, 174);
     font-size: 2.3rem;
     text-align: center;
     padding-bottom: 7px;
@@ -321,7 +340,7 @@ footer p {
 }
 
 span {
-    color:#db0d1e;
+    color: #db0d1e;
     font-weight: 700;
     font-size: large;
     font-family: 'Poppins', sans;
@@ -331,7 +350,7 @@ span {
 .B2T {
     position: fixed;
     bottom: 20px;
-    z-index: 1000; 
+    z-index: 1000;
     font-size: 50px;
 }
 
@@ -339,7 +358,7 @@ span {
     text-decoration: none;
 }
 
-.up{
+.up {
     filter: invert();
     width: 40px;
     border-radius: 50%;
@@ -407,7 +426,7 @@ span {
 
 .contact-info-upper-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 #socials-container {
