@@ -66,6 +66,19 @@
         font-size: 12px;
     }
 
+    .details-container h3 {
+        font-size: 17px;
+    }
+
+    .text-container {
+        font-size: 15px;
+    }
+    
+    p {
+        font-size: 15px;
+
+    }
+
     .about-containers {
         flex-direction: column !important;
     }
