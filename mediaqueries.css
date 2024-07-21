@@ -54,6 +54,18 @@
         padding: 0;
     }
 
+    .title {
+        font-size: 27px;
+    }
+
+    .section__text__P2 {
+       font-size: 20px; 
+    }
+
+    .section__text__P1 {
+        font-size: 12px;
+    }
+
     .about-containers {
         flex-direction: column !important;
     }
