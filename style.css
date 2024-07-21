@@ -15,37 +15,29 @@ body {
 
 
 /* Add dark mode styles */
-.dark-mode {
-    background-color: #001b29;
-    color: #ffffff;
 
-    #hamburger-nav {
-        display: flex;
-        position: -webkit-sticky;
-        /* For Safari */
-        position: sticky;
-        top: 0;
-        /* Stick the Navbar at the top of the viewport */
-        z-index: 1000;
-        margin-bottom: 30px;
-        font-weight: 700;
-        height: 100px;
-        background-color: #0a2735;
-    }
-}
 
 
 html {
     scroll-behavior: smooth;
 }
 
-/* Transition */
+.dark-mode {
+    font-size: 25px;
+    background-color: #001b29;
+    color: #ffffff;
+
+    .nav-links a{
+        color: #fff;
+    }
+    
+}
+
 a,
 .btn {
     transition: all 300ms ease;
 }
 
-/* Desktop Nav */
 nav,
 .nav-links {
     display: flex;
@@ -173,7 +165,7 @@ section {
 }
 
 .title {
-    color: rgb(255, 0, 174);
+    color:rgb(255, 0, 174) ;
     font-size: 2.3rem;
     text-align: center;
     padding-bottom: 7px;
@@ -187,14 +179,11 @@ section {
     gap: 1rem;
 }
 
-/* icons */
-
 .icons {
     cursor: pointer;
     height: 2rem;
     border-radius: 50px;
 }
-
 
 .btn-container {
     display: flex;
@@ -209,8 +198,6 @@ section {
     width: 8rem;
     border-radius: 2rem;
 }
-
-/* buttons */
 
 .btn-color-1,
 .btn-color-2 {
@@ -240,35 +227,15 @@ section {
     gap: 1rem;
 }
 
-/* about section */
-
-
-
 .details-container h3,
 p {
     margin: 0;
     padding: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
 .text-container {
     text-align: justify;
 }
-
-
-
-
-
-/* Experience section */
 
 #experience {
     height: fit-content;
@@ -307,9 +274,6 @@ p {
     cursor: pointer;
 }
 
-/* project section */
-
-
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
@@ -331,10 +295,6 @@ p {
     border-color: rgb(163, 163, 163);
 }
 
-/* contact */
-
-
-
 .contact-info-container {
     display: flex;
     align-items: center;
@@ -351,9 +311,6 @@ p {
     cursor: default;
 }
 
-
-/* footer */
-
 footer {
     height: 5vh;
     margin: 0 1rem;
@@ -364,14 +321,12 @@ footer p {
 }
 
 span {
-    color: rgb(255, 0, 162);
+    color:#db0d1e;
     font-weight: 700;
     font-size: large;
     font-family: 'Poppins', sans;
     font-style: italic;
 }
-
-
 
 .B2T {
     position: fixed;
@@ -392,12 +347,9 @@ span {
 }
 
 .section__pic-container img {
-    border-top: 20px solid #ff00d0;
-    border-bottom: 20px solid #ff00d0;
+    border-top: 20px solid rgb(255, 0, 174);
+    border-bottom: 20px solid rgb(255, 0, 174);
 }
-
-/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
-
 
 .section__pic-container {
     animation: slide infinite 5s;
@@ -413,7 +365,6 @@ span {
         transform: translatex(20px);
     }
 }
-
 
 .carousel {
     overflow: hidden;
@@ -456,14 +407,12 @@ span {
 
 .contact-info-upper-container {
     display: flex;
-    justify-content: center;
-   
+    justify-content: center; 
 }
 
 #socials-container {
     border-radius: 2rem;
     background: rgb(250, 250, 250);
-    /* border: rgb(53, 53, 53) 0.1rem solid; */
     border-color: rgb(163, 163, 163);
     padding: 30px 100px;
     margin-bottom: 10px;
@@ -476,7 +425,6 @@ span {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    /* background: #fff; */
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
@@ -489,7 +437,6 @@ span {
 }
 
 .about-details-container {
-    /* justify-content: center; */
     flex-direction: column;
 }
 
@@ -497,5 +444,3 @@ span {
     gap: 2rem;
     margin: 1rem;
 }
-
-

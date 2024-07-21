@@ -1,8 +1,4 @@
-@media screen and (max-width: 1114px) {
-
-  
-
-}
+@media screen and (max-width: 1114px) {}
 
 
 @media screen and (max-width: 768px) {
@@ -30,28 +26,52 @@
         z-index: 1000;
         margin-bottom: 30px;
         font-weight: 700;
-        height: 100px;
+        height: 70px;
         background-color: #ffecec;
     }
 
     #hamburger-nav .mode {
         margin: 0;
         margin-left: 100px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #hamburger-nav .joe {
-        margin-left: -30px;
+        filter: ;
+        margin-top: 12px;
+        margin-left: -50px;
         width: 170px;
     }
-
-    #hamburger-nav .logo {
-        width: 50px;
-    } 
 
     #profile {
         flex-direction: column !important;
         padding: 0;
+    }
+
+    .dark-mode {
+        background-color: #001b29;
+        color: #ffffff;
+
+        #hamburger-nav {
+            background-color: #091317;
+        }
+
+        .logo {
+            filter: invert();
+        }
+
+        .hamburger-icon span {
+            background-color: #ffecec;
+        }
+
+        .menu-links {
+            background-color: #091317;
+        }
+
+        .menu-links a {
+            color: #ffecec;
+
+        }
     }
 
     .title {
@@ -59,7 +79,7 @@
     }
 
     .section__text__P2 {
-       font-size: 20px; 
+        font-size: 20px;
     }
 
     .section__text__P1 {
@@ -73,7 +93,7 @@
     .text-container {
         font-size: 15px;
     }
-    
+
     p {
         font-size: 15px;
 
@@ -102,12 +122,12 @@
     .btn a {
         font-size: 11px;
     }
-    
+
     .btn-color-1 {
         font-size: 11px;
-        
+
     }
- 
+
     .section__pic-container {
         animation: slide infinite 5s;
         -webkit-animation: slide infinite 1.5s alternate;
@@ -131,15 +151,15 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 24px;
+        height: 25px;
         width: 30px;
         cursor: pointer;
     }
 
     .hamburger-icon span {
-        width: 120%;
-        height: 4.5px;
-        background-color: rgb(231, 8, 190);
+        width: 110%;
+        height: 4px;
+        background-color: rgb(15, 15, 15);
         border-radius: 5px;
         transition: transform 0.5s ease, opacity 0.5s ease-in-out;
     }
@@ -150,7 +170,7 @@
         z-index: 9;
         padding-top: 8em;
         left: 0;
-        background-color: #ffffff;
+        background-color: #ffecec;
         width: 100%;
         min-height: 25svh;
         overflow: hidden;
