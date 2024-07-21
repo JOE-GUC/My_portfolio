@@ -98,6 +98,15 @@
         margin-bottom: 70px;
         padding: 0;
     }
+
+    .btn a {
+        font-size: 11px;
+    }
+    
+    .btn-color-1 {
+        font-size: 11px;
+        
+    }
  
     .section__pic-container {
         animation: slide infinite 5s;
