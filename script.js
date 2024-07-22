@@ -2,30 +2,30 @@ const carousel = document.querySelector('.carousel-container');
 const slides = document.querySelectorAll('.slide');
 const mode = document.querySelector('.mode');
 
-let currentSlide = 0;
+// let currentSlide = 0;
 
-function showSlide(index) {
-    slides.forEach((slide, i) => {
-        slide.style.transform = `translateX(${100 * (i - index)}%)`;
-    });
-    currentSlide = index;
-}
+// function showSlide(index) {
+//     slides.forEach((slide, i) => {
+//         slide.style.transform = `translateX(${100 * (i - index)}%)`;
+//     });
+//     currentSlide = index;
+// }
 
-// Previous and Next buttons functionality
-document.querySelector('#prev').addEventListener('click', () => {
-    if (currentSlide > 0) {
-        showSlide(currentSlide - 1);
-    }
-});
+// // Previous and Next buttons functionality
+// document.querySelector('#prev').addEventListener('click', () => {
+//     if (currentSlide > 0) {
+//         showSlide(currentSlide - 1);
+//     }
+// });
 
-document.querySelector('#next').addEventListener('click', () => {
-    if (currentSlide < slides.length - 1) {
-        showSlide(currentSlide + 1);
-    }
-});
+// document.querySelector('#next').addEventListener('click', () => {
+//     if (currentSlide < slides.length - 1) {
+//         showSlide(currentSlide + 1);
+//     }
+// });
 
-// Initial slide
-showSlide(0);
+// // Initial slide
+// showSlide(0);
 
 
 function toggleMenu() {
