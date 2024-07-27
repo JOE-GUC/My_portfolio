@@ -8,7 +8,7 @@
 
 body {
     font-family: 'poppins', sans-serif;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(240, 240, 240);
     height: fit-content;
 }
 
@@ -26,10 +26,15 @@ html {
     background-color: #001b29;
     color: #ffffff;
 
+    
     nav {
-        background-color: #1a1717;
+        background-color: #091317;
+        /* a:hover {
+            color: rgb(255, 0, 0);
+        } */
     }
-
+    
+    
     .nav-links a {
         color: #fff;
     }
@@ -41,9 +46,11 @@ html {
 }
 
 .mode {
-    margin: 0;
-    /* margin-left: 100px; */
+    display: flex;
     font-size: 20px;
+    margin-left: 50px;
+    margin-top: 9px;
+    cursor: pointer;
 }
 
 a,
@@ -56,6 +63,10 @@ nav,
     display: flex;
 }
 
+
+.demoCon {
+    display: flex;
+}
 .menu-links {
     display: none;
 }
@@ -63,18 +74,18 @@ nav,
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 50px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #ffefef;
+    background-color: #ffffff;
 }
 
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1rem;
+    font-size: 15px;
 }
 
 a {
@@ -83,12 +94,9 @@ a {
     text-decoration-color: #fff;
 }
 
-a:hover {
-    color: gray;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
-}
+/* a:hover {
+    color: rgb(255, 0, 0);
+} */
 
 .logo img {
     width: 170px;
@@ -219,30 +227,13 @@ section {
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
-}
-
-.btn-color-1,
-.btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
-}
-
-.btn-color-1:hover,
-.btn-color-2:hover {
     cursor: pointer;
 }
 
-.btn-color-1,
-.btn-color-2:hover {
-    background: rgb(53, 53, 53);
+.btn-color-1 {
+    background: #3c3434;
     color: #fff;
-}
-
-.btn-color-1:hover {
-    background: rgb(0, 0, 0);
-}
-
-.btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    
 }
 
 .btn-container {
@@ -285,9 +276,9 @@ p {
 
 .article {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 10rem;
-    justify-content: space-around;
-    gap: 0.5rem;
 }
 
 .icon {
@@ -393,11 +384,6 @@ span {
     overflow: hidden;
 }
 
-.carousel-container {
-    display: flex;
-    animation: carousel-animation 70s linear infinite;
-}
-
 .slide img {
     padding: 10px;
     width: 100px;
@@ -410,6 +396,12 @@ span {
     width: 300px;
     height: 190px;
 }
+
+.carousel-container {
+    display: flex;
+    animation: carousel-animation 70s linear infinite;
+}
+
 
 @keyframes carousel-animation {
     0% {
@@ -446,6 +438,9 @@ span {
 }
 
 .details-container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     padding: 1.5rem;
     flex: 1;
     border-radius: 2rem;
@@ -467,3 +462,10 @@ span {
     gap: 2rem;
     margin: 1rem;
 }
+
+
+
+
+
+
+

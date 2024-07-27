@@ -132,6 +132,10 @@
 
     }
 
+    .btn-color-2 {
+        border: 1px #001b29 solid;
+    }
+
     .section__pic-container {
         animation: slide infinite 5s;
         -webkit-animation: slide infinite 1.5s alternate;
@@ -274,4 +278,5 @@
     .Copyright {
         margin-top: 30px;
     }
+    
 }
