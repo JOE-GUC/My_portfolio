@@ -10,6 +10,8 @@ body {
     font-family: 'poppins', sans-serif;
     background-color: rgb(240, 240, 240);
     height: fit-content;
+    /* transition: all 2s ease-in-out; */
+
 }
 
 
@@ -25,10 +27,14 @@ html {
 .dark-mode {
     background-color: #001b29;
     color: #ffffff;
+    /* transition: all 0.5s ease-in-out; */
+
 
     
     nav {
         background-color: #091317;
+        /* transition: all 0.5s ease-in-out; */
+
         /* a:hover {
             color: rgb(255, 0, 0);
         } */
@@ -233,7 +239,8 @@ section {
 .btn-color-1 {
     background: #3c3434;
     color: #fff;
-    
+    transition: all 5s ease-in-out;
+
 }
 
 .btn-container {
@@ -342,11 +349,17 @@ span {
 }
 
 .B2T {
+    display: flex;
     position: fixed;
     bottom: 20px;
-    /* right: 20px; */
     z-index: 1000;
     font-size: 50px;
+}
+
+.wapy {
+position: fixed;
+right: 5px;
+
 }
 
 .B2T a {
@@ -358,6 +371,8 @@ span {
     width: 45px;
     border-radius: 50%;
     border-color: #000;
+    transition: all 2s ease-in-out;
+
 }
 
 .section__pic-container img {
