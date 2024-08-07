@@ -30,7 +30,7 @@ html {
     /* transition: all 0.5s ease-in-out; */
 
 
-    
+
     nav {
         background-color: #091317;
         /* transition: all 0.5s ease-in-out; */
@@ -39,8 +39,8 @@ html {
             color: rgb(255, 0, 0);
         } */
     }
-    
-    
+
+
     .nav-links a {
         color: #fff;
     }
@@ -73,6 +73,7 @@ nav,
 .demoCon {
     display: flex;
 }
+
 .menu-links {
     display: none;
 }
@@ -236,9 +237,15 @@ section {
     cursor: pointer;
 }
 
+.btn-color-2 {
+    border: 1px solid rgb(196, 188, 188); 
+}
+
+
 .btn-color-1 {
     background: #3c3434;
     color: #fff;
+    border: none;
     transition: all 5s ease-in-out;
 
 }
@@ -357,9 +364,9 @@ span {
 }
 
 .wapy {
-position: fixed;
-right: 5px;
-
+    position: fixed;
+    right: 5px;
+    max-width: fit-content;
 }
 
 .B2T a {
@@ -443,7 +450,7 @@ right: 5px;
 #socials-container {
     border-radius: 2rem;
     background: rgb(250, 250, 250);
-    border-color: rgb(163, 163, 163);
+    /* border-color: rgb(163, 163, 163); */
     padding: 30px 100px;
     margin-bottom: 10px;
 }
@@ -459,8 +466,8 @@ right: 5px;
     padding: 1.5rem;
     flex: 1;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border: 1px solid rgb(196, 188, 188);
+    /* border-color: rgb(163, 163, 163); */
     text-align: center;
 }
 
@@ -477,10 +484,3 @@ right: 5px;
     gap: 2rem;
     margin: 1rem;
 }
-
-
-
-
-
-
-
