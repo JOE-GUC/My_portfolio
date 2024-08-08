@@ -191,19 +191,20 @@ section {
 .section__text__P1 {
     text-align: center;
     padding-bottom: 7px;
+    font-size: 12px;
     margin: 0;
 }
 
 .section__text__P2 {
     /* width: fit-content; */
-    font-size: 1.7rem;
+    font-size: 20px;
     padding-bottom: 15px;
     margin: 0;
 }
 
 .title {
     color: rgb(255, 0, 174);
-    font-size: 2.3rem;
+    font-size: 27px;
     text-align: center;
     padding-bottom: 7px;
     margin: 0;
@@ -235,6 +236,7 @@ section {
     width: 8rem;
     border-radius: 2rem;
     cursor: pointer;
+    font-size: 10px;
 }
 
 .btn-color-2 {
@@ -258,6 +260,7 @@ section {
 p {
     margin: 0;
     padding: 0;
+    font-size: 15px;
 }
 
 .text-container {
@@ -345,6 +348,7 @@ footer {
 
 footer p {
     text-align: center;
+    font-size: 12px;
 }
 
 span {
